@@ -1,0 +1,48 @@
+---------------------------------------------
+N = 10                    | Insert(k, v) (ms)    | RemoveMin(k, v) (ms)
+MyPQUnsortedArray         | 1                    | 0                   
+MyPQUnsortedList          | 0                    | 0                   
+MyPQSortedArray           | 0                    | 0                   
+MyPQSortedList            | 0                    | 0                   
+
+
+---------------------------------------------
+N = 100                   | Insert(k, v) (ms)    | RemoveMin(k, v) (ms)
+MyPQUnsortedArray         | 1                    | 0                   
+MyPQUnsortedList          | 0                    | 0                   
+MyPQSortedArray           | 0                    | 0                   
+MyPQSortedList            | 0                    | 0                   
+
+
+---------------------------------------------
+N = 1000                  | Insert(k, v) (ms)    | RemoveMin(k, v) (ms)
+MyPQUnsortedArray         | 0                    | 6                   
+MyPQUnsortedList          | 0                    | 14                  
+MyPQSortedArray           | 7                    | 1                   
+MyPQSortedList            | 0                    | 14                  
+
+
+---------------------------------------------
+N = 10000                 | Insert(k, v) (ms)    | RemoveMin(k, v) (ms)
+MyPQUnsortedArray         | 3                    | 344                 
+MyPQUnsortedList          | 0                    | 447                 
+MyPQSortedArray           | 189                  | 0                   
+MyPQSortedList            | 657                  | 0                   
+
+
+---------------------------------------------
+N = 100000                | Insert(k, v) (ms)    | RemoveMin(k, v) (ms)
+MyPQUnsortedArray         | 1                    | 64058               
+MyPQUnsortedList          | 0                    | 286777              
+MyPQSortedArray           | 73180                | 2                   
+MyPQSortedList            | 347016               | 10                  
+
+
+---------------------------------------------
+N = 1000000               | Insert(k, v) (ms)    | RemoveMin(k, v) (ms)
+MyPQUnsortedArray         | 6                    | 69547833            
+MyPQUnsortedList          | 101                  | 41565641            
+MyPQSortedArray           | 59189162             | 66                  
+MyPQSortedList            | 81111966             | 89                  
+
+
